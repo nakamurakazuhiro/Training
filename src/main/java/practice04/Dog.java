@@ -4,6 +4,8 @@ public class Dog extends Animal {
 
 	private String furColor;
 
+	//コンストは継承しない
+	//ポリモフィずむでコンソールに
 	public Dog(String mname, int age, String furColor) {
 		super(mname, age);
 		setFurColor(furColor);
